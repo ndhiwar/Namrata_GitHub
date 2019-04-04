@@ -1,2 +1,3 @@
-Select * from Temp
-group ALL
+Select abc from Temp
+group abc
+having count(b)>2
